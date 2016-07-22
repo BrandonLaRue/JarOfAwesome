@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "TradeWinds";
+	src: url('../fonts/TradeWinds-Regular.ttf');
+	/*src: url('../fonts/Moth.ttf');*/
+	/*src: url('../fonts/Ampad.ttf');*/
+}
+html {
+	height: 100%; /* Makes background not repeat */
+
+}
+body {
+  	background-color: #e66300;
+  	/*background-color: white;*/
+
+  	/*Bockground repeating for some reason on mobile*/
+/*  background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(230,99,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(230,99,0,1)));
+	background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(230,99,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(230,99,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(230,99,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(230,99,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#e66300', GradientType=0 );
+*/
+}
+
+.headline {
+  padding: 40px 15px;
+  text-align: center;
+}
+nav {
+	background-color:#333333;
+	padding: 20px;
+}
+.navbar {
+	border-radius: 0px;
+}
+.navlink:hover, .navlink:active, .navlink:focus {
+	background-color:#515151 !important;
+}
+.navlink {
+	font-family: "TradeWinds";
+	letter-spacing: 4px;
+	font-size: 1.25em;
+}
+.navbar-brand {
+	font-family: "TradeWinds";
+	font-size: 2em;
+	letter-spacing: 5px;
+	line-height: 1.1em;
+}
+#jar-graphic {
+	/*text-align: center;*/
+}
+svg {
+	width: 100%;
+	height: auto;
+}
