@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "TradeWinds";
+	src: url('../fonts/TradeWinds-Regular.ttf');
+}
+
+body {
+	background-color: #E66300;
+	margin: 0px;
+}
+
+nav {
+	background-color: #333333;
+	padding: 25px;
+}
+
+#title {
+	font-family: "TradeWinds";
+	font-size: 2em;
+	letter-spacing: 5px;
+	line-height: 1.1em;
+	color: #FED136;
+	text-decoration: none;
+}
+
+.navlink {
+	font-family: "TradeWinds";
+	letter-spacing: 4px;
+	font-size: 1.25em;
+	color: #FED136;
+	text-decoration: none;
+
+	padding: 10px;
+	float: right;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav li {
+	display: inline;
+}

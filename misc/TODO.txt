@@ -1,0 +1,7 @@
+Need to figure out how to do vector graphics
+	Use Adobe Illustrator
+	Check out the tutorials here: http://www.creativebloq.com/graphic-design/how-create-vector-art-2131975
+
+Learning Git
+	Need to figure out difference between git pull and git fetch 
+	Need to learn git branching https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
